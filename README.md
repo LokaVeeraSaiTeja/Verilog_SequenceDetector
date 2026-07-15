@@ -96,7 +96,7 @@ docs/03_Mealy_State_Diagram.png
 ## Mealy RTL (Elaborated Design)
 
 <p align="center">
-  <img src="docs/05_Elaborated_Design/mealy_rtl_design.png" width="900">
+  <img src="docs/05_Elaborated_Designs/mealy_rtl_design.png" width="900">
 </p>
 
 ## Mealy Simulation Waveform
@@ -121,7 +121,7 @@ docs/04_Moore_State_Diagram.png
 ## Moore RTL (Elaborated Design)
 
 <p align="center">
-  <img src="docs/05_Elaborated_Design/moore_rtl_design.png" width="900">
+  <img src="docs/05_Elaborated_Designs/moore_rtl_design.png" width="900">
 </p>
 
 ## Moore Simulation Waveform
