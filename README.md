@@ -87,6 +87,23 @@ VLSI_Project1_SequenceDetector/
 ```text
 docs/03_Mealy_State_Diagram.png
 ```
+## Mealy State Diagram
+
+<p align="center">
+  <img src="docs/04_State_Diagrams/mealy_state_diagram.png" width="700">
+</p>
+
+## Mealy RTL (Elaborated Design)
+
+<p align="center">
+  <img src="docs/05_Elaborated_Design/mealy_rtl_design.png" width="900">
+</p>
+
+## Mealy Simulation Waveform
+
+<p align="center">
+  <img src="waveforms/Seq_Mealy_Waveform.png" width="900">
+</p>
 
 ### Moore FSM
 
@@ -95,7 +112,23 @@ docs/03_Mealy_State_Diagram.png
 ```text
 docs/04_Moore_State_Diagram.png
 ```
+## Moore State Diagram
 
+<p align="center">
+  <img src="docs/04_State_Diagrams/moore_state_diagram.png" width="700">
+</p>
+
+## Moore RTL (Elaborated Design)
+
+<p align="center">
+  <img src="docs/05_Elaborated_Design/moore_rtl_design.png" width="900">
+</p>
+
+## Moore Simulation Waveform
+
+<p align="center">
+  <img src="waveforms/moore_nonOverlapping_Waveform.png" width="900">
+</p>
 ---
 
 ## Simulation Results
