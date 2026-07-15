@@ -1,0 +1,52 @@
+---
+
+## Simulation Verification
+
+The simulation results confirm that both sequence detectors operate according to their respective finite state machine (FSM) designs.
+
+### Mealy Sequence Detector
+
+- The output is generated immediately when the final bit of the sequence **1011** is received.
+- Since the output depends on both the current state and the input, the detection pulse occurs during the same clock cycle as the last input bit.
+- The design correctly detects overlapping occurrences of the sequence.
+
+### Moore Sequence Detector
+
+- The output becomes HIGH only after the FSM enters the detection state (**S4**).
+- Since the output depends only on the current state, the detection pulse appears one clock cycle later than in the Mealy implementation.
+- The design correctly follows Moore FSM behavior.
+
+---
+
+## Observations
+
+- Reset initializes the FSM to the initial state (S0).
+- State transitions follow the designed state diagram.
+- No false detections were observed during simulation.
+- The output pulses occur only when the required sequence is detected.
+- The behavior matches the expected functionality of both FSM implementations.
+
+---
+
+## Simulation Environment
+
+| Parameter | Value |
+|-----------|-------|
+| Design Language | Verilog HDL |
+| Simulator | AMD Vivado Simulator |
+| Simulation Type | Behavioral Simulation |
+| Clock Period | 10 ns |
+| Reset Type | Asynchronous Active High |
+
+---
+
+## Result
+
+The behavioral simulation successfully verifies the functionality of both sequence detector implementations.
+
+- ✅ Mealy Overlapping Sequence Detector operates correctly.
+- ✅ Moore Non-overlapping Sequence Detector operates correctly.
+- ✅ State transitions match the designed FSM.
+- ✅ Output pulses are generated at the expected time.
+
+The obtained simulation waveforms validate the correctness of the Verilog implementation.
