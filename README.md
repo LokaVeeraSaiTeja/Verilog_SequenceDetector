@@ -204,7 +204,7 @@ Detailed documentation is available in the `docs` folder.
 
 **Loka Veera Sai Teja**
 
-B.Tech – Computer Science and Engineering
+B.Tech – Electronic Communication and Engineering
 
 IIIT Sri City
 
